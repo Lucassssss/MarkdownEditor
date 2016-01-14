@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft yahei"
+}
+input,button,select,textarea{outline:none}
+body, html{
+	height: 100%;
+	overflow: hidden;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+#view{
+	float: left;
+	width: 50%;
+	overflow-y: scroll;
+	font-size: 14px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	background: #f5f5f5;
+	line-height: 24px;
+	height: 100%;
+}
+
+.md_content{
+	float: left;
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+.toolbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #000;
+	opacity: 0.9;
+	z-index: 9;
+}
+.toolbar a{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px;
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	font-weight: 500;
+	float: left;
+	margin-left: 10px;
+}
+.toolbar a:hover{
+	color: #fff;
+}
+.toolbar a i{
+	-webkit-text-stroke-width: 0;
+}
+.toolbar a.bold{
+	margin-left: 40px;
+}
+.toolbar .right{
+	margin-right:60px;
+	font-size: 14px;
+}
+.md_content textarea{
+	border: none;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	font-size: 14px;
+	padding: 40px 40px 20px 40px;
+	box-sizing: border-box;
+	background: #333;
+	line-height: 20px;
+	color: #fff;
+	height: 100%;
+	padding-top: 60px;
+}
+.tool{
+	position: absolute;
+	padding: 5px 40px 10px 10px;
+	margin-top: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.tool a{
+	display: block;
+	float: right;
+	text-decoration: none;
+	font-size: 12px;
+	margin-left: 20px;
+}
